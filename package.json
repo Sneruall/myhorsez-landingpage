@@ -1,0 +1,14 @@
+{
+  "name": "myhorsez",
+  "version": "1.0.0",
+  "description": "HTML and CSS for myhorsez",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laurens van Roomen",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
