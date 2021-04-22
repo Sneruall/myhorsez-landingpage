@@ -43,6 +43,7 @@ Keep in mind there are some dependencies across Sass imports that may make it mo
   --bs-darkgreen2: #776e23;
   --bs-darkgreen3: #9c9045;
   --bs-darkgreen4: #423709;
+  --bs-yellow1: #ffc61e;
   --bs-grey1: #4a4a4a;
   --bs-grey2: #eeeeee;
   --bs-grey3: #f5f1f1;
@@ -3941,6 +3942,47 @@ fieldset:disabled .btn {
   border-color: #423709;
 }
 
+.btn-yellow1 {
+  color: #000;
+  background-color: #ffc61e;
+  border-color: #ffc61e;
+}
+
+.btn-yellow1:hover {
+  color: #000;
+  background-color: #ffcf40;
+  border-color: #ffcc35;
+}
+
+.btn-check:focus + .btn-yellow1, .btn-yellow1:focus {
+  color: #000;
+  background-color: #ffcf40;
+  border-color: #ffcc35;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(217, 168, 26, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(217, 168, 26, 0.5);
+}
+
+.btn-check:checked + .btn-yellow1,
+.btn-check:active + .btn-yellow1, .btn-yellow1:active, .btn-yellow1.active,
+.show > .btn-yellow1.dropdown-toggle {
+  color: #000;
+  background-color: #ffd14b;
+  border-color: #ffcc35;
+}
+
+.btn-check:checked + .btn-yellow1:focus,
+.btn-check:active + .btn-yellow1:focus, .btn-yellow1:active:focus, .btn-yellow1.active:focus,
+.show > .btn-yellow1.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(217, 168, 26, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(217, 168, 26, 0.5);
+}
+
+.btn-yellow1:disabled, .btn-yellow1.disabled {
+  color: #000;
+  background-color: #ffc61e;
+  border-color: #ffc61e;
+}
+
 .btn-grey1 {
   color: #fff;
   background-color: #4a4a4a;
@@ -5206,6 +5248,40 @@ fieldset:disabled .btn {
 
 .btn-outline-darkgreen4:disabled, .btn-outline-darkgreen4.disabled {
   color: #423709;
+  background-color: transparent;
+}
+
+.btn-outline-yellow1 {
+  color: #ffc61e;
+  border-color: #ffc61e;
+}
+
+.btn-outline-yellow1:hover {
+  color: #000;
+  background-color: #ffc61e;
+  border-color: #ffc61e;
+}
+
+.btn-check:focus + .btn-outline-yellow1, .btn-outline-yellow1:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 198, 30, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(255, 198, 30, 0.5);
+}
+
+.btn-check:checked + .btn-outline-yellow1,
+.btn-check:active + .btn-outline-yellow1, .btn-outline-yellow1:active, .btn-outline-yellow1.active, .btn-outline-yellow1.dropdown-toggle.show {
+  color: #000;
+  background-color: #ffc61e;
+  border-color: #ffc61e;
+}
+
+.btn-check:checked + .btn-outline-yellow1:focus,
+.btn-check:active + .btn-outline-yellow1:focus, .btn-outline-yellow1:active:focus, .btn-outline-yellow1.active:focus, .btn-outline-yellow1.dropdown-toggle.show:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 198, 30, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(255, 198, 30, 0.5);
+}
+
+.btn-outline-yellow1:disabled, .btn-outline-yellow1.disabled {
+  color: #ffc61e;
   background-color: transparent;
 }
 
@@ -7504,6 +7580,16 @@ fieldset:disabled .btn {
   color: #201a04;
 }
 
+.alert-yellow1 {
+  color: #664f0c;
+  background-color: #fff4d2;
+  border-color: #ffeebc;
+}
+
+.alert-yellow1 .alert-link {
+  color: #523f0a;
+}
+
 .alert-grey1 {
   color: #2c2c2c;
   background-color: #dbdbdb;
@@ -8283,6 +8369,22 @@ fieldset:disabled .btn {
   color: #fff;
   background-color: #282105;
   border-color: #282105;
+}
+
+.list-group-item-yellow1 {
+  color: #664f0c;
+  background-color: #fff4d2;
+}
+
+.list-group-item-yellow1.list-group-item-action:hover, .list-group-item-yellow1.list-group-item-action:focus {
+  color: #664f0c;
+  background-color: #e6dcbd;
+}
+
+.list-group-item-yellow1.list-group-item-action.active {
+  color: #fff;
+  background-color: #664f0c;
+  border-color: #664f0c;
 }
 
 .list-group-item-grey1 {
@@ -9823,6 +9925,14 @@ fieldset:disabled .btn {
   color: #352c07;
 }
 
+.link-yellow1 {
+  color: #ffc61e;
+}
+
+.link-yellow1:hover, .link-yellow1:focus {
+  color: #ffd14b;
+}
+
 .link-grey1 {
   color: #4a4a4a;
 }
@@ -10394,6 +10504,10 @@ fieldset:disabled .btn {
 
 .border-darkgreen4 {
   border-color: #423709 !important;
+}
+
+.border-yellow1 {
+  border-color: #ffc61e !important;
 }
 
 .border-grey1 {
@@ -11400,6 +11514,10 @@ fieldset:disabled .btn {
   color: #423709 !important;
 }
 
+.text-yellow1 {
+  color: #ffc61e !important;
+}
+
 .text-grey1 {
   color: #4a4a4a !important;
 }
@@ -11554,6 +11672,10 @@ fieldset:disabled .btn {
 
 .bg-darkgreen4 {
   background-color: #423709 !important;
+}
+
+.bg-yellow1 {
+  background-color: #ffc61e !important;
 }
 
 .bg-grey1 {
