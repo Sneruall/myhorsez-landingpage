@@ -13,8 +13,8 @@
 <body>
 
     <nav class="navbar bg-white">
-        <form class="container-fluid justify-content-start">
-            <a class="navbar-brand d-md-none mx-auto py-3" href="#">
+        <form class="container-fluid justify-content-start d-md-none">
+            <a class="navbar-brand mx-auto py-3" href="#">
                 <img src="./assets/images/mh-logo-02.png" width="200px">
             </a>
             <a class="btn ms-auto rounded-pill btn-outline-browny-green-two me-2" href="#" role="button">Inloggen</a>
@@ -145,7 +145,8 @@
 
         <div class="row justify-content-center">
             <div class="col">
-                <h2 class="display-3 text-browny-green-two fontb fw-bold text-center">Deze mensen gingen jou al voor!</h2>
+                <h2 class="display-3 text-browny-green-two fontb fw-bold text-center">Deze mensen gingen jou al voor!
+                </h2>
             </div>
         </div>
 
@@ -153,39 +154,43 @@
             <div class="col-6 col-lg-4">
                 <div class="col-lg-6 offset-lg-3">
                     <h2 class="display-1 fontb fw-semibold text-greyish-teal text-center">143</h2>
-                    <p class="display-8 fontb fw-semibold text-browny-green-two text-center">Gebruikers hebben vandaag ingelogd</p>
+                    <p class="display-8 fontb fw-semibold text-browny-green-two text-center">Gebruikers hebben vandaag
+                        ingelogd</p>
                 </div>
             </div>
             <div class="col-6 col-lg-4">
                 <div class="col-lg-6 offset-lg-3">
                     <h2 class="display-1 fontb fw-semibold text-greyish-teal text-center">2345</h2>
-                    <p class="display-8 fontb fw-semibold text-browny-green-two text-center">Leden hebben zich al geregistreerd</p>
+                    <p class="display-8 fontb fw-semibold text-browny-green-two text-center">Leden hebben zich al
+                        geregistreerd</p>
                 </div>
             </div>
             <div class="col-6 col-lg-4">
                 <div class="col-lg-6 offset-lg-3">
                     <h2 class="display-1 fontb fw-semibold text-greyish-teal text-center">234</h2>
-                    <p class="display-8 fontb fw-semibold text-browny-green-two text-center">Verschillende paardenrassen</p>
+                    <p class="display-8 fontb fw-semibold text-browny-green-two text-center">Verschillende paardenrassen
+                    </p>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6">
 
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <h2 class="display-2 fontb fw-bold text-browny-green-two">Meld je nu aan!</h2>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <form>
                             <div class="mb-3">
-                                <input type="text" class="form-control rounded-pill" placeholder="Gebruikersnaam" aria-label="Gebruikersnaam" required>
+                                <input type="text" class="form-control rounded-pill" placeholder="Gebruikersnaam"
+                                    aria-label="Gebruikersnaam" required>
                             </div>
                             <div class="mb-3 d-flex">
                                 <div>
                                     <select class="form-select rounded-pill rounded-end" id="dag" required>
-                                        <option value="1" selected >01</option>
+                                        <option value="1" selected>01</option>
                                         <option value="2">02</option>
                                         <option value="3">03</option>
                                         <option value="4">04</option>
@@ -193,7 +198,7 @@
                                 </div>
                                 <div class="flex-grow-1">
                                     <select class="form-select rounded-0" id="maand" required>
-                                        <option value="1" selected >Januari</option>
+                                        <option value="1" selected>Januari</option>
                                         <option value="2">Februari</option>
                                         <option value="3">Maart</option>
                                         <option value="4">April</option>
@@ -201,7 +206,7 @@
                                 </div>
                                 <div>
                                     <select class="form-select rounded-pill rounded-start" id="jaar" required>
-                                        <option value="1" selected >1950</option>
+                                        <option value="1" selected>1950</option>
                                         <option value="2">1951</option>
                                         <option value="3">1952</option>
                                         <option value="4">1953</option>
@@ -209,49 +214,60 @@
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control rounded-pill" placeholder="Wachtwoord" aria-label="Wachtwoord" required>
+                                <input type="password" class="form-control rounded-pill" placeholder="Wachtwoord"
+                                    aria-label="Wachtwoord" required>
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control rounded-pill" placeholder="Wachtwoord herhalen" aria-label="Wachtwoord herhalen" required>
+                                <input type="password" class="form-control rounded-pill"
+                                    placeholder="Wachtwoord herhalen" aria-label="Wachtwoord herhalen" required>
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control rounded-pill" placeholder="Email-adres" aria-label="Email-adres" required>
+                                <input type="email" class="form-control rounded-pill" placeholder="Email-adres"
+                                    aria-label="Email-adres" required>
                             </div>
                             <div class="mb-3">
                                 <div class="form-check mb-3">
-                                    <input class="form-check-input" type="checkbox" value="" id="algemenevoorwaarden" required>
-                                    <label class="form-check-label text-browny-green-two fontb display-9" for="defaultCheck1">             
+                                    <input class="form-check-input" type="checkbox" value="" id="algemenevoorwaarden"
+                                        required>
+                                    <label class="form-check-label text-browny-green-two fontb display-9"
+                                        for="defaultCheck1">
                                         Accepteer de Algemene Voorwaarden
                                     </label>
-                                  </div>
-                                  <div class="form-check mb-3">
-                                    <input class="form-check-input" type="checkbox" value="" id="eersteaccount" required>
-                                    <label class="form-check-label text-browny-green-two fontb display-9" for="defaultCheck2">
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="eersteaccount"
+                                        required>
+                                    <label class="form-check-label text-browny-green-two fontb display-9"
+                                        for="defaultCheck2">
                                         Dit is mijn eerste account op My Horsez
                                     </label>
-                                  </div>
-                                  <div class="form-check mb-3">
+                                </div>
+                                <div class="form-check mb-3">
                                     <input class="form-check-input" type="checkbox" value="" id="nieuwsbrief">
-                                    <label class="form-check-label text-browny-green-two fontb display-9" for="defaultCheck2">
-                                        Ik wil via e-mail op de hoogte blijven van updates, acties, cadeautjes en kortingen.
+                                    <label class="form-check-label text-browny-green-two fontb display-9"
+                                        for="defaultCheck2">
+                                        Ik wil via e-mail op de hoogte blijven van updates, acties, cadeautjes en
+                                        kortingen.
                                     </label>
-                                  </div>
+                                </div>
                             </div>
 
-        
-                              <div>
-                                <button class="btn rounded-pill btn-golden-yellow text-browny-green-two fw-semibold fontb display-8 py-2 px-4" type="submit" value="Submit">Aanmelden!</button>
+
+                            <div class="mb-3">
+                                <button
+                                    class="btn rounded-pill btn-golden-yellow text-browny-green-two fw-semibold fontb display-8 py-2 px-4"
+                                    type="submit" value="Submit">Aanmelden!</button>
                             </div>
-                          </form>
+                        </form>
                     </div>
                 </div>
+                <p class="display-9 fontb text-browny-green-two">De door jou ingevulde gebruikersnaam, leeftijd, land en
+                    geslacht zullen op het gebruikersprofiel getoond worden en zijn daardoor zichtbaar voor andere
+                    ingelogde leden. Lees ook onze Privacyverklaring (klik hier) voor meer informatie over hoe wij met
+                    jouw gegevens omgaan. Indien je nog niet volwassen bent (jonger dan 18 jaar), heb je toestemming van
+                    je ouders nodig om lid te mogen worden van het spel.</p>
             </div>
         </div>
-
-        <div class="row py-5">
-            hoi
-        </div>
-
     </div>
 
 
