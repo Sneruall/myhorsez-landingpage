@@ -8,6 +8,11 @@
 
 // 2. Include any default variable overrides here
 $primary:#d2dd1f;
+// $form-check-input-bg: #6a580a;
+$form-check-input-checked-bg-color:#6a580a;
+$form-check-input-checked-bg-image: none;
+$form-check-input-checked-border-color: none;
+
 
 
 // 3. Include remainder of required Bootstrap stylesheets
@@ -38,7 +43,7 @@ $custom-colors: (
   "pine-four": #3a3626,
   "coffee": #9c9045,
   "greyish-brown-three": #46422f,
-  "browny-green-two": #6a580a, //used
+  "browny-green-two": #6a580a, 
   "ugly-yellow": #d4cb00,
   "greyish-brown-four": #4a4a4a,
   "white-three": #f9f9f9,
@@ -48,7 +53,7 @@ $custom-colors: (
   "sickly-yellow": #d2dd1f,
   "cement": #9c9a92,
   "greyish-brown-six": #656046,
-  "golden-yellow": #ffc61e, //used
+  "golden-yellow": #ffc61e, 
   "greyish-brown-seven": #444444,
   "black-four": #393939,
   "beige": #f7f9e6,
