@@ -17,7 +17,7 @@
             <a class="navbar-brand d-md-none mx-auto py-3" href="#">
                 <img src="./assets/images/mh-logo-02.png" width="200px">
             </a>
-            <button class="ms-auto btn rounded-pill btn-outline-browny-green-two me-2" type="button">Inloggen</button>
+            <a class="btn ms-auto rounded-pill btn-outline-browny-green-two me-2" href="#" role="button">Inloggen</a>
         </form>
     </nav>
 
@@ -30,7 +30,7 @@
                 Het is gratis*.</p>
         </div>
         <div class="d-flex justify-content-center">
-            <button class="btn rounded-pill btn-golden-yellow py-2 px-4" type="button">Nu aanmelden!</button>
+            <a class="btn rounded-pill btn-golden-yellow py-2 px-4" href="#" role="button">Nu aanmelden!</a>
         </div>
         <div class="d-flex justify-content-center">
             <a href="#">Wachtwoord vergeten?</a>
@@ -60,7 +60,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-auto">
-                <button class="btn rounded-pill btn-browny-green-two py-2 px-4" type="button">Meld je nu aan!</button>
+                <a class="btn rounded-pill btn-browny-green-two py-2 px-4" href="#" role="button">Meld je nu aan!</a>
             </div>
         </div>
 
@@ -132,8 +132,8 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-auto">
-                <button class="btn rounded-pill text-white btn-dark-lime-green py-2 px-4" type="button">Wordt nu
-                    lid!</button>
+                <a class="btn rounded-pill text-white btn-dark-lime-green py-2 px-4" href="#" role="button">Wordt nu
+                    lid!</a>
             </div>
         </div>
 
@@ -180,11 +180,11 @@
                     <div class="col-6">
                         <form>
                             <div class="mb-3">
-                                <input type="text" class="form-control rounded-pill" placeholder="Gebruikersnaam" aria-label="Gebruikersnaam">
+                                <input type="text" class="form-control rounded-pill" placeholder="Gebruikersnaam" aria-label="Gebruikersnaam" required>
                             </div>
                             <div class="mb-3 d-flex">
                                 <div>
-                                    <select class="form-select rounded-pill rounded-end" id="dag">
+                                    <select class="form-select rounded-pill rounded-end" id="dag" required>
                                         <option value="1" selected >01</option>
                                         <option value="2">02</option>
                                         <option value="3">03</option>
@@ -192,7 +192,7 @@
                                     </select>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <select class="form-select rounded-0" id="maand">
+                                    <select class="form-select rounded-0" id="maand" required>
                                         <option value="1" selected >Januari</option>
                                         <option value="2">Februari</option>
                                         <option value="3">Maart</option>
@@ -200,7 +200,7 @@
                                     </select>
                                 </div>
                                 <div>
-                                    <select class="form-select rounded-pill rounded-start" id="jaar">
+                                    <select class="form-select rounded-pill rounded-start" id="jaar" required>
                                         <option value="1" selected >1950</option>
                                         <option value="2">1951</option>
                                         <option value="3">1952</option>
@@ -209,32 +209,39 @@
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control rounded-pill" placeholder="Wachtwoord" aria-label="Wachtwoord">
+                                <input type="password" class="form-control rounded-pill" placeholder="Wachtwoord" aria-label="Wachtwoord" required>
                             </div>
                             <div class="mb-3">
-                                <input type="password" class="form-control rounded-pill" placeholder="Wachtwoord herhalen" aria-label="Wachtwoord herhalen">
+                                <input type="password" class="form-control rounded-pill" placeholder="Wachtwoord herhalen" aria-label="Wachtwoord herhalen" required>
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control rounded-pill" placeholder="Email-adres" aria-label="Email-adres">
+                                <input type="email" class="form-control rounded-pill" placeholder="Email-adres" aria-label="Email-adres" required>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="algemenevoorwaarden">
-                                <label class="form-check-label text-browny-green-two fontb display-9" for="defaultCheck1">             
-                                    Accepteer de Algemene Voorwaarden
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="eersteaccount">
-                                <label class="form-check-label text-browny-green-two fontb display-9" for="defaultCheck2">
-                                    Dit is mijn eerste account op My Horsez
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="nieuwsbrief">
-                                <label class="form-check-label text-browny-green-two fontb display-9" for="defaultCheck2">
-                                    Ik wil via e-mail op de hoogte blijven van updates, acties, cadeautjes en kortingen.
-                                </label>
-                              </div>
+                            <div class="mb-3">
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="algemenevoorwaarden" required>
+                                    <label class="form-check-label text-browny-green-two fontb display-9" for="defaultCheck1">             
+                                        Accepteer de Algemene Voorwaarden
+                                    </label>
+                                  </div>
+                                  <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="eersteaccount" required>
+                                    <label class="form-check-label text-browny-green-two fontb display-9" for="defaultCheck2">
+                                        Dit is mijn eerste account op My Horsez
+                                    </label>
+                                  </div>
+                                  <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="nieuwsbrief">
+                                    <label class="form-check-label text-browny-green-two fontb display-9" for="defaultCheck2">
+                                        Ik wil via e-mail op de hoogte blijven van updates, acties, cadeautjes en kortingen.
+                                    </label>
+                                  </div>
+                            </div>
+
+        
+                              <div>
+                                <button class="btn rounded-pill btn-golden-yellow text-browny-green-two fw-semibold fontb display-8 py-2 px-4" type="submit" value="Submit">Aanmelden!</button>
+                            </div>
                           </form>
                     </div>
                 </div>
