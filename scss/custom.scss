@@ -7,7 +7,7 @@
 @import "../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
-$primary: #d2dd1f;
+$primary:#d2dd1f;
 
 
 // 3. Include remainder of required Bootstrap stylesheets
@@ -17,35 +17,63 @@ $primary: #d2dd1f;
 // 4. Include any optional Bootstrap components as you like
 // Create your own map
 $custom-colors: (
-  "lightgreen": #efecdf,
-  "lightgreen2": #e4e996,
-  "lightgreen3": #a7b013,
-  "lightgreen4": #d1cba6,
-  "lightgreen5": #ebe8db,
-  "lightgreen6": #d4de27,
-  "darkgreen": #6a580a, //used
-  "darkgreen2": #776e23,
-  "darkgreen3": #9c9045,
-  "darkgreen4": #423709,
-  "yellow1": #ffc61e, //used
-  "grey1": #4a4a4a,
-  "grey2": #eeeeee,
-  "grey3": #f5f1f1,
-  "grey4": #f8f8f8,
-  "grey5": #f6f6f6,
-  "grey6": #f4f2e8,
-  "grey7": #efefef,
-  "grey8": #cdcccc,
-  "red1": #ff2121,
-  "green1": #30bf2a,
-  "green2": #62cf5a,
-  "blue1": #009fff,
+  "ice-blue": #f9ffff,
+  "black": #20201e,
+  "browny-green": #6e610a,
+  "light-tan": #f7fbce,
+  "black-two": #000000,
+  "charcoal": #333528,
+  "brownish-grey": #73775a,
+  "military-green": #4f5133,
+  "pine": #393b28,
+  "navy-green": #2b2607,
+  "pine-two": #2b4632,
+  "greyish-brown": #5a5747,
   "white": #ffffff,
-  "white-o-50": rgba(255, 255, 255, 0.5),
-  "white-o-63": rgba(255, 255, 255, 0.63),
-  "white-o-47": rgba(255, 255, 255, 0.47),
+  "black-three": #322f25,
+  "puke": #a39c00,
+  "pine-three": #3a3727,
+  "white-two": #d8d8d8,
+  "greyish-brown-two": #5e5d45,
+  "pine-four": #3a3626,
+  "coffee": #9c9045,
+  "greyish-brown-three": #46422f,
+  "browny-green-two": #6a580a, //used
+  "ugly-yellow": #d4cb00,
+  "greyish-brown-four": #4a4a4a,
+  "white-three": #f9f9f9,
+  "charcoal-two": #1f221e,
+  "army-green": #2b2b0e,
+  "greyish-brown-five": #45412e,
+  "sickly-yellow": #d2dd1f,
+  "cement": #9c9a92,
+  "greyish-brown-six": #656046,
+  "golden-yellow": #ffc61e, //used
+  "greyish-brown-seven": #444444,
+  "black-four": #393939,
+  "beige": #f7f9e6,
+  "off-white": #fff9e7,
+  "pinkish-grey": #dcd7ba,
+  "ice": #f8fffd,
+  "beige-two": #e0dbc0,
+  "sand": #d4e055,
+  "warm-grey": #969696,
+  "white-four": #f1f1f1,
+  "cherry-red": #ee0031,
+  "yellow-orange": #eea100,
+  "vibrant-green": #04c900,
+  "very-light-brown": #d3ca96,
+  "dark-lime-green": #6dbb00,
+  "sandy": #e6ed74,
+  "sickly-yellow-two": #c8d740,
+  "khaki": #a9a660,
+  "olive-drab": #706d32,
+  "camo-green": #545228,
+  "muddy-green": #67652e,
+  "olive-drab-two": #706739,
+  "camo-green-two": #3a361f,
+  "greyish-teal": #7eb1a3,
 );
-
 
 //responsive font sizes
 /* 1.125rem is small enough, so RFS won't rescale this */
