@@ -18323,6 +18323,14 @@ fieldset:disabled .btn {
   font-weight: 600;
 }
 
+.hero-image {
+  height: 100vh;
+  background-image: url("../assets/images/hero-image-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 #bg {
   position: fixed;
   top: -0%;
