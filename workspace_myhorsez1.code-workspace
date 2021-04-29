@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\myhorsez"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "myhorsez-landingpage"
+	}
+}
