@@ -18331,6 +18331,10 @@ fieldset:disabled .btn {
   background-position: center;
 }
 
+section {
+  padding: 100px 100px;
+}
+
 #bg {
   position: fixed;
   top: -0%;
