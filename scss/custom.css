@@ -18332,7 +18332,8 @@ fieldset:disabled .btn {
 }
 
 section {
-  padding: 100px 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #bg {
