@@ -8,7 +8,6 @@
 
 // 2. Include any default variable overrides here
 $primary:#d2dd1f;
-// $form-check-input-bg: #6a580a;
 $form-check-input-checked-bg-color:#6a580a;
 $form-check-input-checked-bg-image: none;
 $form-check-input-checked-border-color: none;
@@ -108,9 +107,17 @@ Keep in mind there are some dependencies across Sass imports that may make it mo
 
 // 5. Add additional custom code here
 
+//colors for custom code:
+$sand: #d4e055;
+$light-tan: #f7fbce;
+
 //Fonts
 .fontb {
   font-family: "Lexend", sans-serif;
+}
+
+li.nav-item > a:hover.nav-link {
+  text-decoration: underline;
 }
 
 .fw-semibold {
@@ -150,6 +157,12 @@ section{
   margin: auto;
   min-width: 50%;
   min-height: 50%;
+}
+
+//Gradients
+
+.bg-gradient-sand-light-tan { 
+  background: linear-gradient($sand, $light-tan) 
 }
 
 

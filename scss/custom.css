@@ -18319,6 +18319,10 @@ fieldset:disabled .btn {
   font-family: "Lexend", sans-serif;
 }
 
+li.nav-item > a:hover.nav-link {
+  text-decoration: underline;
+}
+
 .fw-semibold {
   font-weight: 600;
 }
@@ -18354,6 +18358,11 @@ section {
   margin: auto;
   min-width: 50%;
   min-height: 50%;
+}
+
+.bg-gradient-sand-light-tan {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d4e055), to(#f7fbce));
+  background: linear-gradient(#d4e055, #f7fbce);
 }
 
 @media (max-width: 768px) {
