@@ -89,6 +89,7 @@ Keep in mind there are some dependencies across Sass imports that may make it mo
   --bs-olive-drab-two: #706739;
   --bs-camo-green-two: #3a361f;
   --bs-greyish-teal: #7eb1a3;
+  --bs-white-six: #ebebeb;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -5857,6 +5858,47 @@ fieldset:disabled .btn {
   border-color: #7eb1a3;
 }
 
+.btn-white-six {
+  color: #000;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+
+.btn-white-six:hover {
+  color: #000;
+  background-color: #eeeeee;
+  border-color: #ededed;
+}
+
+.btn-check:focus + .btn-white-six, .btn-white-six:focus {
+  color: #000;
+  background-color: #eeeeee;
+  border-color: #ededed;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(200, 200, 200, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(200, 200, 200, 0.5);
+}
+
+.btn-check:checked + .btn-white-six,
+.btn-check:active + .btn-white-six, .btn-white-six:active, .btn-white-six.active,
+.show > .btn-white-six.dropdown-toggle {
+  color: #000;
+  background-color: #efefef;
+  border-color: #ededed;
+}
+
+.btn-check:checked + .btn-white-six:focus,
+.btn-check:active + .btn-white-six:focus, .btn-white-six:active:focus, .btn-white-six.active:focus,
+.show > .btn-white-six.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(200, 200, 200, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(200, 200, 200, 0.5);
+}
+
+.btn-white-six:disabled, .btn-white-six.disabled {
+  color: #000;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+
 .btn-outline-primary {
   color: #d2dd1f;
   border-color: #d2dd1f;
@@ -8030,6 +8072,40 @@ fieldset:disabled .btn {
 
 .btn-outline-greyish-teal:disabled, .btn-outline-greyish-teal.disabled {
   color: #7eb1a3;
+  background-color: transparent;
+}
+
+.btn-outline-white-six {
+  color: #ebebeb;
+  border-color: #ebebeb;
+}
+
+.btn-outline-white-six:hover {
+  color: #000;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+
+.btn-check:focus + .btn-outline-white-six, .btn-outline-white-six:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(235, 235, 235, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(235, 235, 235, 0.5);
+}
+
+.btn-check:checked + .btn-outline-white-six,
+.btn-check:active + .btn-outline-white-six, .btn-outline-white-six:active, .btn-outline-white-six.active, .btn-outline-white-six.dropdown-toggle.show {
+  color: #000;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+
+.btn-check:checked + .btn-outline-white-six:focus,
+.btn-check:active + .btn-outline-white-six:focus, .btn-outline-white-six:active:focus, .btn-outline-white-six.active:focus, .btn-outline-white-six.dropdown-toggle.show:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(235, 235, 235, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(235, 235, 235, 0.5);
+}
+
+.btn-outline-white-six:disabled, .btn-outline-white-six.disabled {
+  color: #ebebeb;
   background-color: transparent;
 }
 
@@ -10244,6 +10320,16 @@ fieldset:disabled .btn {
   color: #3d554e;
 }
 
+.alert-white-six {
+  color: #5e5e5e;
+  background-color: #fbfbfb;
+  border-color: #f9f9f9;
+}
+
+.alert-white-six .alert-link {
+  color: #4b4b4b;
+}
+
 @-webkit-keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -11599,6 +11685,22 @@ fieldset:disabled .btn {
   color: #fff;
   background-color: #4c6a62;
   border-color: #4c6a62;
+}
+
+.list-group-item-white-six {
+  color: #5e5e5e;
+  background-color: #fbfbfb;
+}
+
+.list-group-item-white-six.list-group-item-action:hover, .list-group-item-white-six.list-group-item-action:focus {
+  color: #5e5e5e;
+  background-color: #e2e2e2;
+}
+
+.list-group-item-white-six.list-group-item-action.active {
+  color: #fff;
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
 }
 
 .btn-close {
@@ -13251,6 +13353,14 @@ fieldset:disabled .btn {
   color: #98c1b5;
 }
 
+.link-white-six {
+  color: #ebebeb;
+}
+
+.link-white-six:hover, .link-white-six:focus {
+  color: #efefef;
+}
+
 .ratio {
   position: relative;
   width: 100%;
@@ -13878,6 +13988,10 @@ fieldset:disabled .btn {
 
 .border-greyish-teal {
   border-color: #7eb1a3 !important;
+}
+
+.border-white-six {
+  border-color: #ebebeb !important;
 }
 
 .border-1 {
@@ -15004,6 +15118,10 @@ fieldset:disabled .btn {
   color: #7eb1a3 !important;
 }
 
+.text-white-six {
+  color: #ebebeb !important;
+}
+
 .text-body {
   color: #212529 !important;
 }
@@ -15278,6 +15396,10 @@ fieldset:disabled .btn {
 
 .bg-greyish-teal {
   background-color: #7eb1a3 !important;
+}
+
+.bg-white-six {
+  background-color: #ebebeb !important;
 }
 
 .bg-body {
