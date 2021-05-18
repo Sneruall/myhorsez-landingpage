@@ -19447,4 +19447,10 @@ section {
     font-size: 14px !important;
   }
 }
+
+@media screen and (min-width: 767px) {
+  .switch-mobile-color {
+    color: #fff !important;
+  }
+}
 /*# sourceMappingURL=custom.css.map */
