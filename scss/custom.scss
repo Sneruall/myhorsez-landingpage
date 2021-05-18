@@ -198,7 +198,7 @@ section{
 
 
 // hero image text position and color
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .switch-mobile-color {
     color: #fff !important;
   }
@@ -215,9 +215,46 @@ section{
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
+  .hero-image {
+    h1,p{
+      // margin-top: 10rem !important;
+      margin-top: 4rem !important;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
   .hero-image {
     h1{
+      // margin-top: 10rem !important;
+      margin-top: 6rem !important;
+    }
+    p{
+      margin-top: 14rem !important;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-image {
+    h1{
+      // margin-top: 10rem !important;
+      margin-top: 4rem !important;
+    }
+    p{
+      margin-top: 6rem !important;
+    }
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .hero-image {
+    h1{
+      // margin-top: 10rem !important;
+      margin-top: 4rem !important;
+    }
+    p{
       margin-top: 10rem !important;
     }
   }
