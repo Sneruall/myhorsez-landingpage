@@ -13,33 +13,35 @@
 <body>
 
     <!-- NAVBAR MOBILE -->
-    <nav class="navbar bg-white d-md-none">
+    <nav class="navbar position-fixed w-100 bg-white d-md-none" style="z-index: 1001">
         <form class="container-fluid justify-content-start">
             <a class="navbar-brand" href="#">
                 <img class="img-fluid" src="./assets/images/mh-logo-02.png" width="170px">
             </a>
-            <a class="btn ms-auto rounded-pill btn-outline-browny-green-two me-2 mt-3" type="submit"
-                value="Submit">Inloggen</a>
+            <input class="btn ms-auto rounded-pill btn-outline-browny-green-two me-2 mt-2" type="submit"
+                value="Inloggen"></input>
         </form>
     </nav>
 
-    <div class="container-fluid hero-image position-relative">
         <!-- NAVBAR DESKTOP -->
-        <nav class="navbar d-none d-md-flex">
-            <form class="container-fluid justify-content-start mx-4 py-3">
+        <nav class="navbar position-fixed w-100 bg-white d-none d-md-flex" style="z-index: 1001">
+            <form class="container-fluid justify-content-start mx-4">
                 <div class="flex-grow-1">
                     <a class="navbar-brand" href="#">
                         <img src="./assets/images/mh-logo-02.png" width="200px">
                     </a>
                 </div>
-                <input type="text" class="form-control rounded-pill me-2 mt-3" placeholder="Gebruikersnaam"
+                <input type="text" class="form-control rounded-pill me-2 mt-2" placeholder="Gebruikersnaam"
                     aria-label="Gebruikersnaam" style="width: 141px; font-size: 14px;" required>
-                <input type="password" class="form-control rounded-pill me-2 mt-3" placeholder="Wachtwoord"
+                <input type="password" class="form-control rounded-pill me-2 mt-2" placeholder="Wachtwoord"
                     aria-label="Wachtwoord" style="width: 141px; font-size: 14px;" required>
-                <a class="btn ms-auto rounded-pill btn-browny-green-two me-2 mt-3" type="submit"
-                    value="Submit">Inloggen</a>
+                <input class="btn btn-browny-green-two ms-auto rounded-pill me-2 mt-2" type="submit"
+                    value="Inloggen"></input>
             </form>
         </nav>
+
+        <div class="container-fluid hero-image position-relative" style="padding-top: 62px;">
+
         <div class="row">
             <div class="col-md-6 offset-md-3 mt-lg-4" style="z-index: 1000;">
                 <div class="d-flex justify-content-center mt-5 mt-md-0 mb-xl-5">
@@ -111,7 +113,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto mb-3 mb-sm-0">
-                    <a class="btn rounded-pill btn-browny-green-two py-2 px-4 mb-5 mb-sm-0" href="#" role="button">Meld je nu
+                    <a class="btn rounded-pill btn-browny-green-two py-3 px-4 mb-5 mb-sm-0" href="#" role="button">Meld je nu
                         aan!</a>
                 </div>
             </div>
@@ -200,7 +202,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <a class="btn rounded-pill text-white btn-dark-lime-green py-2 px-4" href="#" role="button">Wordt nu
+                    <a class="btn rounded-pill text-white btn-dark-lime-green py-3 px-4" href="#" role="button">Wordt nu
                         lid!</a>
                 </div>
             </div>
@@ -357,9 +359,9 @@
 
 
                         <div class="mb-3">
-                            <button
+                            <input
                                 class="btn rounded-pill btn-golden-yellow text-browny-green-two fw-semibold fontb display-8 py-2 px-4"
-                                type="submit" value="Submit">Aanmelden!</button>
+                                type="submit" value="Aanmelden"></input>
                         </div>
                     </form>
                 </div>
