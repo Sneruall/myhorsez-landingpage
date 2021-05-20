@@ -8,6 +8,9 @@
 
 // 2. Include any default variable overrides here
 $primary:#d2dd1f;
+$danger: rgba(255, 33, 33, 0.2);
+$success: rgba(98, 207, 90, 0.5);
+$info: rgba(0, 159, 255, 0.5);
 $form-check-input-checked-bg-color:#6a580a;
 $form-check-input-checked-bg-image: none;
 $form-check-input-checked-border-color: none;
@@ -78,6 +81,11 @@ $custom-colors: (
   "camo-green-two": #3a361f,
   "greyish-teal": #7eb1a3,
   "white-six": #ebebeb,
+  "light-grey": #efecdf,
+  "mud-brown": #423709,
+  "orange-red": #ff2121, 
+  "fresh-green": #62cf5a, 
+  "azure": #009fff, 
 );
 
 //responsive font sizes
@@ -177,6 +185,16 @@ section{
   background: linear-gradient($sand, $light-tan) 
 }
 
+//Rounded corners
+.rounded-4 {
+  border-radius: 0.625rem;
+}
+
+.rounded-top-4 {
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+}
+
 
 
 @media (max-width: 768px) {
@@ -206,56 +224,64 @@ section{
 
 
 
-// change text color
-@media screen and (max-width: 576px) {
-  .hero-image {
-    h1{
-      font-size: 32px !important;
-    }
-  }
-}
+// change text placement
+// @media screen and (max-width: 576px) {
+//   .hero-image {
+//     h1{
+//       font-size: 32px !important;
+//     }
+//   }
+// }
 
-@media screen and (min-width: 768px) {
-  .hero-image {
-    h1,p{
-      // margin-top: 10rem !important;
-      margin-top: 4rem !important;
-    }
-  }
-}
+// @media screen and (min-width: 768px) {
+//   .hero-image {
+//     h1,p{
+//       margin-top: 4rem !important;
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 992px) {
+//   .hero-image {
+//     h1{
+//       margin-top: 6rem !important;
+//     }
+//     p{
+//       margin-top: 14rem !important;
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 1200px) {
+//   .hero-image {
+//     h1{
+//       margin-top: 4rem !important;
+//     }
+//     p{
+//       margin-top: 6rem !important;
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 1800px) {
+//   .hero-image {
+//     h1{
+//       // margin-top: 10rem !important;
+//       margin-top: 4rem !important;
+//     }
+//     p{
+//       margin-top: 10rem !important;
+//     }
+//   }
+// }
+
+//registratiegegevensModal
 
 @media screen and (min-width: 992px) {
-  .hero-image {
-    h1{
-      // margin-top: 10rem !important;
-      margin-top: 6rem !important;
-    }
-    p{
-      margin-top: 14rem !important;
-    }
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-image {
-    h1{
-      // margin-top: 10rem !important;
-      margin-top: 4rem !important;
-    }
-    p{
-      margin-top: 6rem !important;
-    }
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  .hero-image {
-    h1{
-      // margin-top: 10rem !important;
-      margin-top: 4rem !important;
-    }
-    p{
-      margin-top: 10rem !important;
+  #registratiegegevensModal {
+    .border-0{
+      border-right: 2px solid !important;
+      border-color: #f1f1f1 !important;
     }
   }
 }

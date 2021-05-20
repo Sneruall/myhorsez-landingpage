@@ -59,7 +59,69 @@
                             role="button">Nu aanmelden!</a>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <a class="display-10 fw-semibold text-greyish-brown-seven" href="#">Wachtwoord vergeten?</a>
+                        <a class="display-10 fw-semibold text-greyish-brown-seven" role="button" data-bs-toggle="modal" data-bs-target="#registratiegegevensModal">
+                            Wachtwoord vergeten?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Registratiegegevens Modal -->
+        <div class="modal fade" id="registratiegegevensModal" tabindex="-1" aria-labelledby="registratiegegevensModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content rounded-4">
+                    <div class="modal-header bg-light-grey rounded-top-4">
+                        <h5 class="modal-title display-4 text-coffee fontb fw-bold" id="registratiegegevensModalLabel">Registratiegegevens opvragen</h5>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                        <button class="btn" data-bs-dismiss="modal" type="button">
+                            <svg fill="#6a580a" viewBox="0 0 329.26933 329" width="16" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-6 p-5 border-0">
+                                    <h6 class="display-6 fontb fw-bold text-mud-brown mb-3">Gebruikersnaam vergeten</h6>
+                                    <form>
+                                        <div class="mb-3 me-lg-5">
+                                            <input type="email" class="form-control rounded-pill" placeholder="E-mail"
+                                            aria-label="E-mail" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input
+                                                class="btn rounded-pill btn-browny-green-two text-white fw-semibold fontb py-2 px-4"
+                                                type="submit" value="Opvragen"></input>
+                                        </div>
+                                    </form>
+                                    <div class="row bg-danger rounded-bottom border-top border-4 border-orange-red">
+                                        <p class="pt-3 display-8">
+                                            Er is geen gebruikersnaam gevonden voor dit e-mailadres!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 p-5">
+                                    <h6 class="display-6 fontb fw-bold text-mud-brown mb-3">Wachtwoord vergeten</h6>
+                                    <form>
+                                        <div class="mb-3 me-lg-5">
+                                            <input type="text" class="form-control rounded-pill" placeholder="Gebruikersnaam"
+                                            aria-label="Gebruikersnaam" required>
+                                        </div>
+                                        <div class="mb-3 me-lg-5">
+                                            <input type="email" class="form-control rounded-pill" placeholder="E-mail"
+                                            aria-label="E-mail" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input
+                                                class="btn rounded-pill btn-browny-green-two text-white fw-semibold fontb py-2 px-4"
+                                                type="submit" value="Opvragen"></input>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
