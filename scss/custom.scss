@@ -104,16 +104,9 @@ $custom-display-font-sizes: (
   11: 0.5rem //8px
 );
 
-$custom-spacers: (
-"150px": 150px,
-"125px": 130px,
-"100px": 100px
-);
-
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
 $display-font-sizes: map-merge($display-font-sizes, $custom-display-font-sizes);
-$spacers: map-merge($spacers, $custom-spacers);
 
 /*deze 'bootstrap' import hieronder importeerd alles wat in die file wordt geimporteerd.
 If you’re not using a component, comment it out or delete it entirely. 
