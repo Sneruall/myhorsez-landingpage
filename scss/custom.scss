@@ -143,6 +143,7 @@ li.nav-item > a:hover.nav-link {
 //Hero image
 .hero-image{
   height: 100vh;
+  padding-top: 62px;;
   background-image: url('../assets/images/hero-image-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -241,14 +242,17 @@ section{
 
 
 
-// change text placement
-// @media screen and (max-width: 576px) {
-//   .hero-image {
-//     h1{
-//       font-size: 32px !important;
-//     }
-//   }
-// }
+// change text placement hero image
+@media screen and (max-width: 576px) {
+  .hero-image {
+    h1{
+      font-size: 32px !important;
+    }
+    p{
+      font-size: 16px !important;
+    }
+  }
+}
 
 // @media screen and (min-width: 768px) {
 //   .hero-image {
