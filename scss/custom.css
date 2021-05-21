@@ -20069,6 +20069,9 @@ section {
   .hero-image {
     height: 75vh !important;
   }
+  .hero-image svg {
+    top: calc(75vh-62px) !important;
+  }
 }
 
 @media screen and (min-width: 768px) {

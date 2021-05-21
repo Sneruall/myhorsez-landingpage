@@ -229,6 +229,9 @@ section{
 @media screen and (max-width: 576px) {
   .hero-image {
     height: 75vh !important;
+    svg {
+      top: calc(75vh-62px) !important;
+    }
   }
 }
 
