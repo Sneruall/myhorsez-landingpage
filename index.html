@@ -18,10 +18,62 @@
             <a class="navbar-brand" href="#">
                 <img class="img-fluid" src="./assets/images/mh-logo-02.png" width="170px">
             </a>
-            <input class="btn ms-auto rounded-pill btn-outline-browny-green-two me-2 mt-2" type="submit"
-                value="Inloggen"></input>
+            <a class="btn ms-auto rounded-pill btn-outline-browny-green-two me-2 mt-2" role="button" data-bs-toggle="modal" data-bs-target="#loginModal">Inloggen</a>
         </form>
     </nav>
+
+    <!-- Full screen login modal (bootstrap md screen and down) -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen-md-down modal-dialog-centered">      
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    <button class="btn ms-auto" data-bs-dismiss="modal" type="button">
+                        <svg fill="#6a580a" viewBox="0 0 329.26933 329" width="16" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <h6 class="display-6 fontb fw-bold text-mud-brown mb-3">Gebruikersnaam vergeten</h6>
+                                <form>
+                                    <div class="mb-3 me-lg-5">
+                                        <input type="email" class="form-control rounded-pill" placeholder="E-mail"
+                                        aria-label="E-mail" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input
+                                            class="btn rounded-pill btn-browny-green-two text-white fw-semibold fontb py-2 px-4"
+                                            type="submit" value="Opvragen"></input>
+                                    </div>
+                                </form>
+                                <div class="row bg-danger rounded-bottom my-2 border-top border-4 border-orange-red">
+                                    <p class="pt-3 display-8">
+                                        Er is geen gebruikersnaam gevonden voor dit e-mailadres!
+                                    </p>
+                                </div>
+                                <div class="row bg-success rounded-bottom my-2 border-top border-4 border-fresh-green">
+                                    <p class="pt-3 display-8">
+                                        Gebruikersnaam gevonden, check je mailbox!
+                                    </p>
+                                </div>
+                                <div class="row bg-info rounded-bottom my-2 border-top border-4 border-azure">
+                                    <p class="pt-3 display-8">
+                                        Nog een melding.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
         <!-- NAVBAR DESKTOP -->
         <nav class="navbar position-fixed w-100 bg-white d-none d-md-flex" style="z-index: 1001">
