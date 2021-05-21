@@ -27,7 +27,6 @@
             <div class="modal-dialog modal-fullscreen-md-down modal-dialog-centered">      
             <div id="bgMobileMenu" class="modal-content">
                 <div class="modal-header border-0">
-                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
                     <button class="btn ms-auto" data-bs-dismiss="modal" type="button">
                         <svg fill="#6a580a" viewBox="0 0 329.26933 329" width="16" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -64,11 +63,13 @@
                                             Wachtwoord vergeten?</a>
                                     </div>
                                 </form>
+                                <!-- rode melding -->
                                 <div class="row bg-danger rounded-bottom my-2 border-top border-4 border-orange-red">
                                     <p class="pt-3 display-8">
                                         Wachtwoord onjuist.
                                     </p>
                                 </div>
+                                <!-- groene melding -->
                                 <div class="row bg-success rounded-bottom my-2 border-top border-4 border-fresh-green">
                                     <p class="pt-3 display-8">
                                         Gebruikersnaam gevonden, check je mailbox!
@@ -126,80 +127,6 @@
             </div>
         </div>
 
-        <!-- Registratiegegevens Modal -->
-        <div class="modal" id="registratiegegevensModal" tabindex="-1" aria-labelledby="registratiegegevensModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
-                <div class="modal-content rounded-4">
-                    <div class="modal-header bg-light-grey rounded-top-4 py-4">
-                        <h5 class="modal-title display-4 text-coffee fontb fw-bold" id="registratiegegevensModalLabel">Registratiegegevens opvragen</h5>
-                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-                        <button class="btn mb-auto" data-bs-dismiss="modal" type="button">
-                            <svg fill="#6a580a" viewBox="0 0 329.26933 329" width="16" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0" />
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="modal-body p-0">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-6 p-5 border-0">
-                                    <h6 class="display-6 fontb fw-bold text-mud-brown mb-3">Gebruikersnaam vergeten</h6>
-                                    <form>
-                                        <div class="mb-3 me-lg-5">
-                                            <input type="email" class="form-control rounded-pill" placeholder="E-mail"
-                                            aria-label="E-mail" required>
-                                        </div>
-                                        <div class="mb-3">
-                                            <input
-                                                class="btn rounded-pill btn-browny-green-two text-white fw-semibold fontb py-2 px-4"
-                                                type="submit" value="Opvragen"></input>
-                                        </div>
-                                    </form>
-                                    <!-- rode melding -->
-                                    <div class="row bg-danger rounded-bottom my-2 border-top border-4 border-orange-red">
-                                        <p class="pt-3 display-8">
-                                            Er is geen gebruikersnaam gevonden voor dit e-mailadres!
-                                        </p>
-                                    </div>
-                                    <!-- groene melding -->
-                                    <div class="row bg-success rounded-bottom my-2 border-top border-4 border-fresh-green">
-                                        <p class="pt-3 display-8">
-                                            Gebruikersnaam gevonden, check je mailbox!
-                                        </p>
-                                    </div>
-                                    <!-- melding niet zichtbaar met d-none in class -->
-                                    <div class="d-none row bg-info rounded-bottom my-2 border-top border-4 border-azure">
-                                        <p class="pt-3 display-8">
-                                            Nog een melding.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 p-5 pt-0 pt-lg-5">
-                                    <h6 class="display-6 fontb fw-bold text-mud-brown mb-3">Wachtwoord vergeten</h6>
-                                    <form>
-                                        <div class="mb-3 me-lg-5">
-                                            <input type="text" class="form-control rounded-pill" placeholder="Gebruikersnaam"
-                                            aria-label="Gebruikersnaam" required>
-                                        </div>
-                                        <div class="mb-3 me-lg-5">
-                                            <input type="email" class="form-control rounded-pill" placeholder="E-mail"
-                                            aria-label="E-mail" required>
-                                        </div>
-                                        <div class="mb-3">
-                                            <input
-                                                class="btn rounded-pill btn-browny-green-two text-white fw-semibold fontb py-2 px-4"
-                                                type="submit" value="Opvragen"></input>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         
         <svg class="position-absolute bottom-0 start-50 translate-middle-x w-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220" style="margin-bottom: -1px;">
             <path fill="#f7f9e6" id="XMLID_1_" class="st0" d="M0,220h1440l0.5-148.2c-117.2,26.6-238.5,40-364,40c-188.3,0-388.3-35.1-628.9-40
@@ -217,12 +144,79 @@
         </div>
     </div>
 
+            <!-- Registratiegegevens Modal -->
+            <div class="modal" id="registratiegegevensModal" tabindex="-1" aria-labelledby="registratiegegevensModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+                    <div class="modal-content rounded-4">
+                        <div class="modal-header bg-light-grey rounded-top-4 py-4">
+                            <h5 class="modal-title display-4 text-coffee fontb fw-bold" id="registratiegegevensModalLabel">Registratiegegevens opvragen</h5>
+                            <button class="btn mb-auto" data-bs-dismiss="modal" type="button">
+                                <svg fill="#6a580a" viewBox="0 0 329.26933 329" width="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="modal-body p-0">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-6 p-5 border-0">
+                                        <h6 class="display-6 fontb fw-bold text-mud-brown mb-3">Gebruikersnaam vergeten</h6>
+                                        <form>
+                                            <div class="mb-3 me-lg-5">
+                                                <input type="email" class="form-control rounded-pill" placeholder="E-mail"
+                                                aria-label="E-mail" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <input
+                                                    class="btn rounded-pill btn-browny-green-two text-white fw-semibold fontb py-2 px-4"
+                                                    type="submit" value="Opvragen"></input>
+                                            </div>
+                                        </form>
+                                        <!-- rode melding -->
+                                        <div class="row bg-danger rounded-bottom my-2 border-top border-4 border-orange-red">
+                                            <p class="pt-3 display-8">
+                                                Er is geen gebruikersnaam gevonden voor dit e-mailadres!
+                                            </p>
+                                        </div>
+                                        <!-- groene melding -->
+                                        <div class="row bg-success rounded-bottom my-2 border-top border-4 border-fresh-green">
+                                            <p class="pt-3 display-8">
+                                                Gebruikersnaam gevonden, check je mailbox!
+                                            </p>
+                                        </div>
+                                        <!-- melding niet zichtbaar met d-none in class -->
+                                        <div class="d-none row bg-info rounded-bottom my-2 border-top border-4 border-azure">
+                                            <p class="pt-3 display-8">
+                                                Nog een melding.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 p-5 pt-0 pt-lg-5">
+                                        <h6 class="display-6 fontb fw-bold text-mud-brown mb-3">Wachtwoord vergeten</h6>
+                                        <form>
+                                            <div class="mb-3 me-lg-5">
+                                                <input type="text" class="form-control rounded-pill" placeholder="Gebruikersnaam"
+                                                aria-label="Gebruikersnaam" required>
+                                            </div>
+                                            <div class="mb-3 me-lg-5">
+                                                <input type="email" class="form-control rounded-pill" placeholder="E-mail"
+                                                aria-label="E-mail" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <input
+                                                    class="btn rounded-pill btn-browny-green-two text-white fw-semibold fontb py-2 px-4"
+                                                    type="submit" value="Opvragen"></input>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-
-
-
-    <!-- oplossen met rows en columns -->
     <section class="bg-beige">
         <div class="container mb-5">
             <div class="row">
@@ -258,9 +252,9 @@
         </div>
     </section>
 
+     
     <div class="curved-lower bg-beige position-relative">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300" style="margin-bottom: -1px;">
-            <!-- <path fill="#e0dbc0" fill-opacity="1" d="M0,192L48,170.7C96,149,192,107,288,101.3C384,96,480,128,576,144C672,160,768,160,864,138.7C960,117,1056,75,1152,53.3C1248,32,1344,32,1392,32L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path> -->
             <path fill="#e0dbc0" id="XMLID_2_" class="st0" d="M1442.1,299.5V0.1C1293.1-4.1,1063,117,891.5,216.7s-442.4-53.2-678.7,0.9
 	C153.8,231.2,80,258.5,0,299.5H1442.1z"/>
           </svg>
@@ -318,15 +312,11 @@
                 <img class="mx-auto img-fluid" src="/assets/images/group-7@2x.png" style="min-width: 500px;" width="902" alt="">
             </div>
         </div>
-        <!-- <img class="img-fluid position-absolute top-50 start-50 translate-middle" src="/assets/images/group-6@2x.png" width="730px" alt=""> -->
     </div>
 
 
     <section class="bg-beige-two">
         <div class="container mb-sm-5 mt-5">
-
-
-
             <div class="row justify-content-center">
                 <div class="col-lg-5 mt-5 mt-sm-0">
                     <h2 class="d-none d-md-block display-3 fontb fw-bold text-center text-browny-green-two">Speel
@@ -346,7 +336,6 @@
                         lid!</a>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -361,7 +350,6 @@
 
 
     <section class="bg-ice pb-lg-0">
-
         <div class="container">
             <div class="row justify-content-center pb-5 pt-5">
                 <div class="col">
@@ -370,7 +358,6 @@
                     </h2>
                 </div>
             </div>
-
             <div class="row pb-5 pb-lg-0">
                 <div class="col-6 col-lg-4">
                     <div class="col-lg-6 offset-lg-3">
@@ -400,20 +387,16 @@
 
     </section>
 
-
-    
     <div class="curved-lower bg-ice">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220" style="margin-bottom: -1px;">
-            <!-- <path fill="#d4e055" fill-opacity="1" d="M0,96L80,117.3C160,139,320,181,480,181.3C640,181,800,139,960,128C1120,117,1280,139,1360,149.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path> -->
             <path fill="#d4e055" id="XMLID_2_" class="st0" d="M1440,220V84.4c-133.1-28.6-359-28.6-679.7,0s-574,39.7-759.9,33.4L0,220H1440z"/>
           </svg>
     </div>
 
 
     <section class="bg-gradient-sand-light-tan position-relative pt-0">
-
         <div class="d-lg-none position-absolute" style="top: -285px; right: 0;">
-            <img class="" src="./assets/images/whitehorse-small.png" width="150px">
+        <img class="" src="./assets/images/whitehorse-small.png" width="150px">
         </div>
         <div class="container">
          <div class="row">
@@ -518,9 +501,6 @@
         </div>
     </div>
     </div>
-
-
-
     </section>
 
     <section class="bg-very-light-brown">
@@ -563,17 +543,10 @@
     </section>
 
     </div>
-
-
-
-
-
-
 </body>
 <!-- Javascript from bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
-
 
 </html>
