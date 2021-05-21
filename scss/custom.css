@@ -20024,6 +20024,15 @@ section {
   min-height: 50%;
 }
 
+#bgMobileMenu {
+  background-image: url(../assets/images/dashboard-background.svg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1000;
+}
+
 .bg-gradient-sand-light-tan {
   background: -webkit-gradient(linear, left top, left bottom, from(#d4e055), to(#f7fbce));
   background: linear-gradient(#d4e055, #f7fbce);

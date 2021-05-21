@@ -179,6 +179,16 @@ section{
   min-height: 50%;
 }
 
+//background image mobile login menu
+#bgMobileMenu {
+  background-image: url(../assets/images/dashboard-background.svg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1000;
+}
+
 //Gradients
 
 .bg-gradient-sand-light-tan { 
