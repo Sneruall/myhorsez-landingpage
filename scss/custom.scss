@@ -15,8 +15,6 @@ $form-check-input-checked-bg-color:#6a580a;
 $form-check-input-checked-bg-image: none;
 $form-check-input-checked-border-color: none;
 
-
-
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
@@ -184,7 +182,6 @@ section{
 }
 
 //Gradients
-
 .bg-gradient-sand-light-tan { 
   background: linear-gradient($sand, $light-tan) 
 }
@@ -198,8 +195,6 @@ section{
   border-top-left-radius: 0.625rem;
   border-top-right-radius: 0.625rem;
 }
-
-
 
 @media (max-width: 768px) {
   #sidebar.active {
@@ -228,16 +223,12 @@ section{
   }
 }
 
-
-
 // hero image text position and color
 @media screen and (min-width: 768px) {
   .switch-mobile-color {
     color: #fff !important;
   }
 }
-
-
 
 // change text placement hero image
 @media screen and (max-width: 576px) {
@@ -260,10 +251,7 @@ section{
   }
 }
 
-
-
 //registratiegegevensModal
-
 @media screen and (min-width: 992px) {
   #registratiegegevensModal {
     .border-0{
